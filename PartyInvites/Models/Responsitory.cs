@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace PartyInvites.Models
 {
-    public static class Responsitory
+    public static class Repository
     {
         private static List<GuestResponse> responses = new List<GuestResponse>();
         public static IEnumerable<GuestResponse> Responses
@@ -15,7 +15,7 @@ namespace PartyInvites.Models
                 return responses;
             }
         }
-        public static void AddResponse(GuestResponse response)
+        public static void AddRepository(GuestResponse response)
         {
             responses.Add(response);
         }

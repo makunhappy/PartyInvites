@@ -7,11 +7,13 @@
 <html>
 <head>
     <title>@ViewBag.header</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css"/>
 </head>
 <body>
-    <div>
-        <p>Helo World from the view</p>
+    <div class="text-center">
+        <h1>Helo World from the view</h1>
+
+        <a class="btn btn-primary" asp-action="RsvpForm">RsvpForm</a>
     </div>
-    <a asp-action="RsvpForm">RsvpForm</a>
 </body>
 </html>
